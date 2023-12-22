@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: aliceblue; */
+}
+.meme-generator .meme-author {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.meme-generator .reddit {
+    margin-top: 10px; 
+}
+
+.meme-generator .meme-title{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 60;
+}
+.meme-generator{
+    height: cover;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: none;
+    margin-top: 50px;
+}
+.meme-generator img{
+    margin-bottom: 20px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.meme-generator .generate-meme-btn{
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    transition: all 0.3s ease-in-out 0s;
+}
+.meme-generator .generate-meme-btn:hover{
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #000;
+    scale: 1.1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    letter-spacing: 3px;
+}
+
+.meme-generator .meme-author {
+    /* border: 2px solid #000; */
+    margin: 8px 36px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out 0s ;
+}
+
+.meme-generator .meme-author:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.meme-generator .reddit{
+    font-size: 30px;
+    background-color: #FF4500;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    transition: all 0.3s ease-in-out 0s;
+}
+.meme-generator .reddit:hover{
+    background-color: #fff;
+    color: #FF4500;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
